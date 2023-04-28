@@ -69,6 +69,12 @@
 			 <li class="nav-item dropdown">
 				<a href="adminMain.ad" class="nav-link" style="color: black;" id="navbarDropdown" role="button"  aria-expanded="false" onclick="myFunction()">
             	<b>관리자모드</b></a>
+            	<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<li><a class="dropdown-item" href="inventoryList.in">재고관리</a></li>
+					<li><a class="dropdown-item" href="inventoryAddForm.in">재고등록</a></li>
+					<li><a class="dropdown-item" href="">서브메뉴3</a></li>
+					<li><a class="dropdown-item" href="">서브메뉴4</a></li>
+				</ul>
 			</li>
 			<% } else if(userId != null){ %>
 			<li class="nav-item dropdown">
